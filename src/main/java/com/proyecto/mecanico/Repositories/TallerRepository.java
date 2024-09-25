@@ -10,7 +10,7 @@ import java.util.Optional;
 @Repository
 public interface TallerRepository extends CrudRepository<TallerModel, Long> {
 
-    public Optional<ArrayList<TallerModel>> findCarModelByPlate(String plate);
-    public Optional<ArrayList<TallerModel>> findCarModelByName(String name);
+    Optional<ArrayList<TallerModel>> findCarModelByPlate(String plate);
+    Optional<ArrayList<TallerModel>> findCarModelByName(String name);
 
 }

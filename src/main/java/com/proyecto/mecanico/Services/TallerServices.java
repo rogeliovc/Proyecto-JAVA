@@ -39,7 +39,7 @@ public class TallerServices {
             tallerRepository.deleteById(id);
             return "car deleted successfully";
         }else {
-            return "car with id="+ id+ " not foud";
+            return "car with id="+ id+ " not found";
         }
     }
 
